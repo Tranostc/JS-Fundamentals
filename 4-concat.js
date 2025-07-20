@@ -1,7 +1,4 @@
-const c = ("C is cool");
-console.log(c);
-let cc = undefined;
-console.log(cc);
-const undefined = undefined;
-console.log(pyhton fun);
+const arg1 = process.argv[2];
+const arg2 = process.argv[3];
 
+console.log(`${arg1} is ${arg2}`);
