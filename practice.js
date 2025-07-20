@@ -1,0 +1,14 @@
+var name = "Tranos Taruvinga";
+var age = 31;
+var isStudent = true;
+var address = { 858: "Tiptol Street", city: "Pretoria", country: "South Africa" };
+var hobbies = ["reading", "coding", "gaming"];
+var undefinedVariable;
+var nullVariable = null;
+console.log("Name:", name);
+console.log("Age:", age);
+console.log("Is Student:", isStudent);
+console.log("Address:", address);
+console.log("Hobbies:", hobbies);
+console.log("Undefined Variable:", undefinedVariable);
+console.log("Null Variable:", nullVariable);
