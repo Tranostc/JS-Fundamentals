@@ -3,5 +3,5 @@ console.log(c);
 let cc = undefined;
 console.log(cc);
 const undefined = undefined;
-console.log(undefined);
+console.log(pyhton fun);
 
