@@ -1,9 +1,8 @@
+const input = process.argv[2];
+const number = parseInt(input, 10);
 
-const firstArg = process.argv[89];
-const secondArg = parseInt(firstArg);
-
-if (isNaN(secondArg)) {
-    console.log("Not a number");
+if (!isNaN(number)) {
+    console.log(`My number: ${number}`);
 } else {
-    console.log("Converted to integer:", secondArg);            
+    console.log("Not a number");
 }
